@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    font-family: "Roboto Light",sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #007765;
+    line-height: 44px;
+    text-align: center;
+}
+
+h1 {
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.logo_header svg {
+    vertical-align: bottom;
+}
+
+.container {
+    max-width: 2011px;
+    margin: 0 auto;
+
+}
+
+.logo_header {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.nav_header {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 502px;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+
+}
+
+.nav_header a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-title {
+    padding: 160px 0;
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: normal;
+    background-image: url("img/image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.problem, .ppc {
+    max-width: 1110px;
+    padding: 48px 0 92px 0;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.problem p:last-child, .ppc p:last-child {
+    margin-bottom: 0;
+}
+
+.problem span {
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url("img/image1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 128px 0 127px 0;
+}
+
+.hero p {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+}
+
+.hero div {
+    max-width: 893px;
+    margin: 0 auto;
+}
+
+.ppc img {
+    float: left;
+    margin-right: 48px;
+}
+
+.team {
+    background: #EEEEEE;
+    padding: 58px 0 70px 0;
+}
+
+.mordi {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.morda-title{
+    color: #007765;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    padding-top: 12px;
+}
+.morda {
+    width: 250px;
+    display: inline-block;
+    padding: 40px 60px 42px;
+    text-align: center;
+
+}
+
+.morda-position{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+footer {
+    padding: 50px 0 62px 0;
+    background-color: #333333;
+    line-height: 44px;
+}
+footer div {
+    color: white;
+    font-size: 18px;
+    max-width: 540px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
